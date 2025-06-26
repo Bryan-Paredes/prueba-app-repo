@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "@workspace/ui/components/button";
 import { Input } from "@workspace/ui/components/input";
+import { LoginForm } from "../components/login-form";
 
 export default function Home() {
   return (
@@ -101,7 +102,7 @@ export default function Home() {
         </a>
       </footer>
       <Button>Este es un Boton</Button>
-      <Input placeholder="Este es un Input" className="w-64" />
+      <LoginForm />
     </div>
   );
 }

@@ -10,7 +10,7 @@ export default function Page() {
         <LoginForm />
       </div>
       <Button variant={"destructive"}>Este es un Botton</Button>
-      <Card>
+      <Card className="p-3 bg-white shadow-md rounded-lg">
         <CardTitle>Card Title</CardTitle>
         <CardContent>
           <p>This is some content inside the card.</p>

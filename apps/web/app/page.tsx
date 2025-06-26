@@ -10,11 +10,13 @@ export default function Page() {
         <LoginForm />
       </div>
       <Button variant={"destructive"}>Este es un Botton</Button>
-      <Card className="p-3 bg-white shadow-md rounded-lg">
-        <CardTitle>Card Title</CardTitle>
+      <Card className="p-3 shadow-md rounded-lg">
+        <CardTitle className="text-2xl">Card Title</CardTitle>
         <CardContent>
           <p>This is some content inside the card.</p>
-          <Button variant="default">Click Me</Button>
+          <Button variant="default" className="rounded-full">
+            Click Me
+          </Button>
         </CardContent>
       </Card>
     </div>

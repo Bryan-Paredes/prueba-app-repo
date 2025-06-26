@@ -1,5 +1,6 @@
 import { LoginForm } from "@/components/login-form";
 import { Button } from "@workspace/ui/components/button";
+import { Card, CardContent, CardTitle } from "@workspace/ui/components/card";
 
 export default function Page() {
   return (
@@ -9,6 +10,13 @@ export default function Page() {
         <LoginForm />
       </div>
       <Button variant={"destructive"}>Este es un Botton</Button>
+      <Card>
+        <CardTitle>Card Title</CardTitle>
+        <CardContent>
+          <p>This is some content inside the card.</p>
+          <Button variant="default">Click Me</Button>
+        </CardContent>
+      </Card>
     </div>
   );
 }

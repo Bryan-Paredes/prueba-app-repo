@@ -1,0 +1,1 @@
+const payment = 10
